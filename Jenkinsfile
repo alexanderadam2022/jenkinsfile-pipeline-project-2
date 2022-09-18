@@ -7,6 +7,12 @@ pipeline {
                 sh 'echo using shell within Jenkinsfile'
                 echo 'changed Jenkinsfile'
             }
+         }
+        stage('build') {
+            steps {
+                echo 'Clarusway_Way to Reinvent Yourself'
+                sh 'echo Integrating Jenkins Pipeline with GitHub Webhook using Jenkinsfile'
+            }
         }
     }
 }
